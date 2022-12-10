@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListSNIG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="SNIG"
+            android:padding="3dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txtListIdLocal"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="idLocal"
+            android:padding="3dp"
+            />
+
+        <TextView
+            android:id="@+id/txtListRaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raza"
+            android:padding="3dp"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtListFecNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fecNac"
+        android:padding="3dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtListPesoNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PesoNac"
+        android:padding="3dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtListTipoParto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TipoParto"
+        android:padding="3dp"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txtListSnigMadre"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="SnigMadre"
+        android:padding="3dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/txtListSnigPadre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnigPadre"
+        android:padding="3dp"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
